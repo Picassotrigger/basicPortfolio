@@ -70,20 +70,23 @@ h3 {
 }
 li {
     float: left;
-    padding: 0 10px;
+/*    padding: 0 15px;*/
 }
 #logo {
     float: left;
-    height: 100px;
+    height: 40px;
     width: 570px;
-    padding: 30px 40px;
+    padding: 15px 40px 30px 40px;
     background: blue;
 }
 #mainNav {
-    float: right;
-    padding-top: 40px;
+    float: left;
+    padding-top: 45px;
+    padding-left: 20px;
     background: red;
-    width: auto;
+    width: 270px;
+    height: 40px;
+    margin-left: 10px; 
 }
 #main {
     width: 570px;
@@ -98,7 +101,9 @@ li {
 #connect {
     background: orange;
     float: right;
-    width: 270px;
+    width: 220px;
+    padding: 30px 30px 100px 20px;
+    margin: 9px 20px;
 }
 footer {
     background: yellow;
@@ -106,4 +111,11 @@ footer {
     height: 100px;
     line-height: 100px;
     text-align: center;
+}
+.socIcon {
+    height: 60px;
+    padding: 0 10px 0 0;
+}
+section nav ul li {
+    padding: 0 15px;
 }
