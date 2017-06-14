@@ -52,7 +52,8 @@ table {
 /*My Styles*/
 
 body {
-    font-family: Georgia, "Times New Roman", Times, serif;
+/*    font-family: Georgia, "Times New Roman", Times, serif;*/
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 1.5;
 }
 .container {
@@ -73,20 +74,23 @@ li {
 /*    padding: 0 15px;*/
 }
 #logo {
+    position: relative;
     float: left;
     height: 40px;
-    width: 570px;
+    width: 880px;
     padding: 15px 40px 30px 40px;
     background: blue;
 }
 #mainNav {
-    float: left;
-    padding-top: 45px;
-    padding-left: 20px;
+    position: absolute;
+    left: 45%;
+/*    float: right;*/
+    padding: 45px 20px 0 20px;
+/*    padding-left: 20px;*/
     background: red;
     width: 270px;
     height: 40px;
-    margin-left: 10px; 
+/*    margin-left: 10px; */
 }
 #main {
     width: 570px;
