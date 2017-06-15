@@ -196,38 +196,25 @@ footer p {
 
 
 /*PORTFOLIO MAIN*/
-.pic {
+.picContain {
     position: relative;
+    float: left;
+    padding: 0 25px 20px 10px;
 }
-
-
-#pic1 {
+.pic {
 /*    position: relative;*/
 }
-#pic1Label {
+.picLabel {
     background: #4aaaa5;
     color: #ffffff;
-    width: 200px;
+    width: 250px;
     height: 25px;
     text-align: center;
     padding: 15px 0;
     position: absolute;
-    top: 67%;
+    top: 61%;
 }
-#pic2 {
-    float: left;
-}
-/*
-#pic3 {
-    float: left;
-}
-#pic4 {
-    float: left;
-}
-#pic5 {
-    float: left;
-}
-*/
+
 
 
 
