@@ -69,6 +69,8 @@ body {
 h1 {
     font-size: 2em;
     color: #ffffff;
+    font-weight: 100;
+    text-decoration: none;
 }
 h2 {
     font-size: 1.8em;
@@ -93,6 +95,22 @@ hr {
     margin: 15px 0 0 0;
     padding: 0px 0 15px 0;
 }
+a:hover {
+    color: orange;
+/*    border-bottom: 1px solid orange;*/
+}
+button:hover {
+    background: orange;
+}
+aside ul li:hover {
+    border-bottom: 3px double orange;
+}
+a {
+    text-decoration: none;
+}
+#logo:hover {
+    background: orange;
+}
 
 
 
@@ -113,10 +131,10 @@ header {
     padding: 15px 10px 5px 10px;
     border: 0;
     margin: 0;
-/*    float: left;*/
+    float: left;
     position: absolute;
     top: 0px;
-    left: 40px;
+    left: 23px;
 
 
 }
@@ -173,9 +191,13 @@ footer {
     background: #666666;
     clear: both;
     height: 80px;
+    width: 100%;
     line-height: 80px;
     text-align: center;
     border-top: 6px solid #4aaaa5;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
 }
 footer p {
     color: #ffffff;
@@ -189,8 +211,9 @@ footer p {
     float: left;
     margin-right: 10px;
 }
-#bioText {
+.bioText {
     line-height: 1.7;
+    text-align: justify;
 }
 
 
@@ -204,17 +227,21 @@ footer p {
 .pic {
     width: 250px;
     height: 200px;
-    border: 1px solid #666666;
+/*    border: 1px solid #666666;*/
 }
 .picLabel {
     background: #4aaaa5;
     color: #ffffff;
-    width: 250px;
+    width: 251px;
     height: 25px;
     text-align: center;
+    font-weight: 100;
     padding: 15px 0;
     position: absolute;
-    top: 61%;
+    top: 60%;
+}
+.picLabel:hover {
+    background: orange;
 }
 
 
@@ -226,7 +253,7 @@ input {
     height: 30px;
     border: 1px solid #cccccc;
     font-size: 12px;
-    color: #f2f2f2;
+    color: #f1f1f1;
     padding: 0 0 0 20px;
 }
 textarea {
@@ -238,8 +265,10 @@ button {
     background: #4aaaa5;
     border: 0 none transparent;
     width: 100px;
-    height: 30px;
+    height: 40px;
     color: #ffffff;
+    font-size: 14px;
+    font-weight: 200;
 }
 form p {
     padding: 10px 0 0 0;
